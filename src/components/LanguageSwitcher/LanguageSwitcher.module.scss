@@ -1,0 +1,72 @@
+@use "../../styles/variables";
+@use "../../styles/functions";
+@use "../../styles/mixins";
+
+.languageButton {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 7px;
+  transition: opacity 0.3s ease;
+  color: inherit;
+
+  > * + * {
+    margin-left: 0.5rem;
+  }
+}
+
+.languageIcon {
+  font-size: 1.5em;
+}
+
+.languageCode {
+  margin-left: 0.5rem;
+  font-weight: bold;
+  display: none;
+
+  & + .languageIcon {
+    display: none;
+  }
+
+  @include mixins.mobile {
+    display: block;
+    & + .languageIcon {
+      display: block;
+    }
+  }
+}
+
+.languageList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  min-width: 120px;
+
+  li {
+    padding: 0.25rem 0;
+  }
+
+  button {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: functions.theme("text-secondary");
+    font-weight: variables.$font-weight-light;
+
+    &:hover {
+      color: functions.theme("text-primary");
+      background-color: functions.theme("bg-tertiary");
+    }
+
+    &.active {
+      color: functions.theme("text-primary");
+      font-weight: variables.$font-weight-bold;
+    }
+  }
+}

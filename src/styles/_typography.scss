@@ -1,0 +1,55 @@
+@use "fonts";
+@use "variables";
+@use "functions";
+@use "mixins";
+
+html {
+  font-family: variables.$font-family-primary;
+  // TODO: Keep as fallback?
+  // color: functions.theme("text-primary");
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+p,
+li {
+  color: functions.theme("text-primary");
+}
+
+.h2 {
+  font-size: variables.$font-size-xxl;
+  text-transform: capitalize;
+
+  @include mixins.mobile {
+    font-size: variables.$font-size-4xl;
+  }
+}
+
+.h3 {
+  font-size: variables.$font-size-xl;
+
+  @include mixins.mobile {
+    font-size: variables.$font-size-xxl;
+  }
+}
+
+.h4 {
+  font-size: variables.$font-size-rg;
+
+  @include mixins.mobile {
+    font-size: variables.$font-size-xl;
+  }
+}
+
+.h5 {
+  font-size: variables.$font-size-xs;
+  font-weight: variables.$font-weight-medium;
+
+  @include mixins.mobile {
+    font-size: variables.$font-size-md;
+  }
+}

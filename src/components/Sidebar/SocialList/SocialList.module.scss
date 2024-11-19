@@ -1,0 +1,34 @@
+@use "../../../styles/variables";
+@use "../../../styles/functions";
+@use "../../../styles/mixins";
+
+.socialList {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+
+  @include mixins.desktop-large {
+    justify-content: center;
+  }
+}
+
+.socialItem .socialLink {
+  font-size: variables.$font-size-xl;
+
+  > svg {
+    fill: functions.theme("text-tertiary");
+    color: functions.theme("text-tertiary");
+  }
+
+  @include mixins.mobile {
+    font-size: 20px;
+  }
+}
+
+.socialItem .socialLink:hover > svg {
+  fill: functions.theme("text-secondary");
+  color: functions.theme("text-secondary");
+}

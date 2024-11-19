@@ -1,0 +1,16 @@
+@use "../../styles/variables";
+@use "../../styles/functions";
+@use "../../styles/mixins";
+
+.pdfLink {
+  margin-bottom: 30px;
+  color: functions.theme("accent-primary");
+  display: inline-flex;
+  gap: 0.5em;
+  align-items: center;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}

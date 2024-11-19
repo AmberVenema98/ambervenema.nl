@@ -1,0 +1,118 @@
+@use "../../styles/variables";
+@use "../../styles/functions";
+@use "../../styles/mixins";
+
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 20;
+  pointer-events: none;
+  visibility: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &.active {
+    pointer-events: all;
+    visibility: visible;
+  }
+
+  @include mixins.mobile {
+    padding: 20px;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: hsl(0, 0%, 10%);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 1;
+  transition: variables.$transition-fast;
+
+  &.active {
+    opacity: 0.8;
+    visibility: visible;
+    pointer-events: all;
+  }
+}
+
+.modalWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.modal {
+  background: functions.theme("bg-secondary");
+  position: relative;
+  padding: 15px;
+  margin: 15px 12px;
+  border: 1px solid functions.theme("border-color");
+  border-radius: 14px;
+  box-shadow: functions.theme("shadow-xl");
+  transform: scale(1.2);
+  opacity: 0;
+  transition: variables.$transition-fast;
+  z-index: 2;
+  max-width: 100%;
+
+  @include mixins.mobile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 25px;
+    padding: 30px;
+    border-radius: 20px;
+  }
+
+  @include mixins.tablet {
+    gap: 35px;
+    max-width: 680px;
+  }
+}
+
+.modalContainer.active .modal {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.modalCloseBtn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: functions.theme("bg-tertiary");
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: variables.$font-size-xl;
+  opacity: 0.7;
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+
+  svg {
+    stroke-width: 50px;
+    color: functions.theme("text-primary");
+  }
+}

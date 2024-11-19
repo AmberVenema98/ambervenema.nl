@@ -1,0 +1,42 @@
+@use "sass:map";
+@use "variables";
+
+@mixin themify {
+  @each $theme, $map in variables.$themes {
+    .#{$theme}-theme {
+      @each $key, $value in $map {
+        --#{$key}: #{$value};
+      }
+    }
+  }
+}
+
+@mixin mobile-small {
+  @media (min-width: map.get(variables.$screen-sizes, mobile-small)) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (min-width: map.get(variables.$screen-sizes, mobile)) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: map.get(variables.$screen-sizes, tablet)) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: map.get(variables.$screen-sizes, desktop)) {
+    @content;
+  }
+}
+
+@mixin desktop-large {
+  @media (min-width: map.get(variables.$screen-sizes, desktop-large)) {
+    @content;
+  }
+}

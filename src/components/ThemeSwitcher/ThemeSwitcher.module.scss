@@ -1,0 +1,17 @@
+@use "../../styles/variables";
+@use "../../styles/functions";
+
+.themeSwitcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 7px;
+  transition: opacity 0.3s ease;
+  background: none;
+  border: none;
+}
+
+.themeIcon {
+  font-size: 1.5em;
+}

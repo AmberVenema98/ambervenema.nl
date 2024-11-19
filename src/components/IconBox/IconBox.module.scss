@@ -1,0 +1,49 @@
+@use "../../styles/variables";
+@use "../../styles/functions";
+@use "../../styles/mixins";
+
+.iconBox {
+  position: relative;
+  background: functions.theme("border-gradient-primary");
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: variables.$font-size-rg;
+  box-shadow: functions.theme("shadow");
+  z-index: 1;
+
+  a & {
+    &:hover,
+    &:focus {
+      background: functions.theme("bg-gradient-accent-primary");
+    }
+  }
+
+  @include mixins.mobile {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    font-size: variables.$font-size-xl;
+  }
+}
+
+.iconBox::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: functions.theme("bg-secondary");
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.iconBox > svg {
+  fill: functions.theme("accent-primary");
+  color: functions.theme("accent-primary");
+
+  @include mixins.mobile {
+    font-size: 22px;
+  }
+}

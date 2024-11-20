@@ -1,30 +1,31 @@
 {
   "title": "About me",
   "description": [
-    "Hey, I'm <strong>{{config.owner.fullName}}</strong>, a fourth-year Bachelor's student of Computer Science at Inholland University of Applied Sciences in Haarlem, The Netherlands. I have a passion for <strong>problem solving</strong> and like to dive deep into complex issues. I'm always eager to <strong>learn new things</strong> and improve my skills.",
-    "I have experience with various programming languages and technologies, such as Java, C#, TypeScript, Python, and (No)SQL. I'm also familiar with frameworks and libraries like React, Spring Boot, ASP.NET, and TensorFlow. I'm currently working on expanding my knowledge of <strong>CI/CD and Cloud Computing</strong>."
+    "Hey, I'm <strong>{{config.owner.fullName}}</strong>, a third-year Communication and Multimedia Design student at the Amsterdam University of Applied Sciences, passionate about <strong>Web design and Development</strong>. I love combining creativity and technical skills to craft intuitive, user-centered digital experiences.",
+    "Currently, I'm exploring innovative technologies through a minor in Designing for Emerging Technologies, while later this year, I'll begin a second minor in Stuttgart to specialize in App Design and Development. My expertise includes tools like <strong>Figma, HTML/CSS, and Javascript</strong>, enabling me to combine design and development seamlessly.",
+    "I'm driven by a curiosity to push the boundaries of Digital design and Development and my goal is to design and develop user-friendly digital experiences that help businesses connect with their audience and meet their goals."
   ],
   "whatImDoing": {
     "title": "What I'm Doing",
     "interests": {
       "backendDevelopment": {
-        "title": "Backend Development",
-        "description": "Building backend systems and API's for various applications",
+        "title": "Prototyping en Wireframing",
+        "description": "Designing prototypes using tools like Figma or Adobe XD to test and refine user flows and interfaces.",
         "iconAlt": "Backend Development icon"
       },
       "webDevelopment": {
-        "title": "Web Development",
-        "description": "Developing functional websites built with modern technologies.",
+        "title": "User Research en Testing",
+        "description": "Conducting user research and usability testing to optimize digital products.",
         "iconAlt": "Web Development icon"
       },
       "artificialIntelligence": {
-        "title": "Artificial Intelligence",
-        "description": "Creating both machine and deep learning AI models.",
+        "title": "Front-end Development",
+        "description": "Developing responsive websites and dynamic user interfaces using HTML, CSS, and JavaScript.",
         "iconAlt": "Artificial Intelligence icon"
       },
       "cooking": {
-        "title": "Cooking",
-        "description": "Besides programming, I love to cook and try new recipes.",
+        "title": "3D-Modellering",
+        "description": "Exploring 3D modeling with Blender and Unity to create immersive experiences.",
         "iconAlt": "Cooking icon"
       }
     }

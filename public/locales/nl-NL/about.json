@@ -1,30 +1,31 @@
 {
   "title": "Over mij",
   "description": [
-    "Hoi, ik ben <strong>{{config.owner.fullName}}</strong>, een vierdejaars Bachelor-student Informatica aan de Hogeschool Inholland in Haarlem. Ik heb een passie voor het <strong>oplossen van problemen</strong> en duik graag diep in complexe vraagstukken. Ik ben altijd bereid om <strong>nieuwe dingen te leren</strong> en mijn vaardigheden te verbeteren.",
-    "Ik heb ervaring met verschillende programmeertalen en technologieën, zoals Java, C#, TypeScript, Python en (No)SQL. Ook ben ik bekend met frameworks en libraries zoals React, Spring Boot, ASP.NET en TensorFlow. Momenteel ben ik bezig met het uitbreiden van mijn kennis van <strong>CI/CD en Cloud Computing</strong>."
+    "Hallo, ik ben <strong>{{config.owner.fullName}}</strong>, een derdejaars student Communicatie en Multimedia Design aan de Hogeschool van Amsterdam, met een passie voor <strong>Webdesign en Webdevelopment</strong>. Ik vind het geweldig om creativiteit en technische vaardigheden te combineren om gebruiksvriendelijke digitale ervaringen te maken.",
+    "Op dit moment volg ik een minor in Designing for Emerging Technologies, waarin ik me verder verdiep in innovatieve technologieën. Later dit jaar begin ik aan mijn tweede minor in Stuttgart, waar ik me ga focussen op App Design en Development. Ik werk met tools zoals <strong>Figma, HTML/CSS en JavaScript</strong>, zodat ik design en development goed met elkaar kan combineren.",
+    "Ik ben nieuwsgierig en gedreven om de grenzen van digitaal ontwerp en ontwikkeling te verkennen. Mijn doel is om digitale ervaringen te creëren die bedrijven helpen om hun doelgroep te bereiken en hun doelen te realiseren."
   ],
   "whatImDoing": {
     "title": "Wat ik doe",
     "interests": {
       "backendDevelopment": {
-        "title": "Backend Development",
-        "description": "Het bouwen van backend-systemen en API's voor verschillende toepassingen",
+        "title": "Prototyping en Wireframing",
+        "description": "Prototypes ontwerpen met tools als Figma of Adobe XD om gebruikersstromen te testen.",
         "iconAlt": "Backend Development icoon"
       },
       "webDevelopment": {
-        "title": "Web Development",
-        "description": "Ontwikkelen van functionele websites gebouwd met moderne technologieën.",
+        "title": "User Research en Testing",
+        "description": "Gebruikersonderzoek en tests uitvoeren om digitale producten te verbeteren.",
         "iconAlt": "Web Development icoon"
       },
       "artificialIntelligence": {
-        "title": "Artificial Intelligence",
-        "description": "Het ontwikkelen van zowel machine als deep learning AI-modellen.",
+        "title": "Front-end Development",
+        "description": "Responsieve websites en interfaces ontwikkelen met HTML, CSS en JavaScript.",
         "iconAlt": "Artificial Intelligence icoon"
       },
       "cooking": {
-        "title": "Koken",
-        "description": "Naast programmeren houd ik van koken en het uitproberen van nieuwe recepten.",
+        "title": "3D-Modellering",
+        "description": "3D-modellering verkennen met Blender en Unity voor meeslepende ervaringen.",
         "iconAlt": "Koken icoon"
       }
     }

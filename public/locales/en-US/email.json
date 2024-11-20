@@ -1,6 +1,6 @@
 {
   "submission": {
-    "subject": "semplaatsman.nl: New message from {{name}}",
+    "subject": "ambervenema.nl: New message from {{name}}",
     "received": "You've received a new message from {{name}} on your contact page:",
     "reachabilityMessage": "You can reach them through {{email}}."
   },

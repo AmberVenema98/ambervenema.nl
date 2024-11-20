@@ -2,19 +2,19 @@
   "sidebar": {
     "avatarAlt": "Afbeelding van {{config.owner.fullName}}",
     "name": "{{config.owner.fullName}}",
-    "title": "BSc INF Student",
+    "title": "BSc CMD Student",
     "hideContacts": "Verberg contacten",
     "showContacts": "Toon contacten",
     "contacts": {
       "github": {
         "title": "GitHub",
-        "handle": "@SemPlaatsman",
+        "handle": "@AmberVenema",
         "link": "{{config.externalLinks.github}}",
         "ariaLabel": "Profiel van {{config.owner.fullName}} op GitHub"
       },
       "linkedin": {
         "title": "LinkedIn",
-        "handle": "@sem-plaatsman",
+        "handle": "@amber-venema",
         "link": "{{config.externalLinks.linkedin}}",
         "ariaLabel": "Profiel van {{config.owner.fullName}} op LinkedIn"
       },

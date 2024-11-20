@@ -2,19 +2,19 @@
   "sidebar": {
     "avatarAlt": "Picture of {{config.owner.fullName}}",
     "name": "{{config.owner.fullName}}",
-    "title": "BSc CS Student",
+    "title": "BSc CMD Student",
     "hideContacts": "Hide contacts",
     "showContacts": "Show contacts",
     "contacts": {
       "github": {
         "title": "GitHub",
-        "handle": "@SemPlaatsman",
+        "handle": "@AmberVenema",
         "link": "{{config.externalLinks.github}}",
         "ariaLabel": "GitHub profile of {{config.owner.fullName}}"
       },
       "linkedin": {
         "title": "LinkedIn",
-        "handle": "@sem-plaatsman",
+        "handle": "@amber-venema",
         "link": "{{config.externalLinks.linkedin}}",
         "ariaLabel": "LinkedIn profile of {{config.owner.fullName}}"
       },

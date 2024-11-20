@@ -14,39 +14,46 @@ import { Theme } from '../types/theme';
 // - /index.html
 const config = {
   app: {
-    baseUrl: 'https://semplaatsman.nl',
-    githubUrl: 'https://github.com/SemPlaatsman/semplaatsman.nl',
-    domain: 'semplaatsman.nl',
+    baseUrl: 'https://ambervenema.nl',
+    githubUrl: 'https://github.com/AmberVenema98',
+    domain: 'ambervenema.nl',
   },
   owner: {
-    firstName: 'Sem',
-    lastName: 'Plaatsman',
-    fullName: 'Sem Plaatsman',
-    additionalName: 'SemPl',
+    firstName: 'Amber',
+    lastName: 'Venema',
+    fullName: 'Amber Venema',
+    additionalName: 'AV',
     locationUrl:
       'https://www.openstreetmap.org/export/embed.html?bbox=4.520702362060548%2C52.333241186520006%2C4.747295379638673%2C52.43550196931334&amp;layer=mapnik', // URL from https://www.openstreetmap.org, you can select a location, and export it as a link
-    gender: 'Male', // According to https://schema.org/GenderType
+    gender: 'Female', // According to https://schema.org/GenderType
     knowsLanguage: ['English', 'Dutch'], // According to https://schema.org/Language
     nationality: 'Dutch', // According to https://schema.org/Country
     addressLocality: 'Haarlem', // According to the 'addressLocality' field of https://schema.org/PostalAddress
     addressCountry: 'NL', // According to the 'addressCountry' field of https://schema.org/PostalAddress
     knowsAbout: [
-      'C#',
-      'Java',
-      'TypeScript',
-      'React',
-      'OOP',
-      'AI',
-      'Deep Learning',
-      'Machine Learning',
-      'Cloud Computing',
+      'HTML',
+      'CSS',
+      'Javascript',
+      'Figma',
       'GitHub',
-      'Docker',
-      'Python',
+      'Photoshop',
+      'InDesign',
+      'Illustrator',
+      'Adobe XD',
+      'Wordpress',
+      'Blender',
+      'Unity',
+      'Miro',
+      'Designing for Emerging Technology',
+      'Webdesign',
+      'Webdeveloping',
+      'Usability Testing',
+      'Prototyping',
+      'Interaction Design',
     ], // According to the 'knowsAbout' field of https://schema.org/Person
   },
   email: {
-    address: 'hello@semplaatsman.nl',
+    address: 'hello@ambervenema.nl',
     rateLimit: {
       maxRequests: 5,
       timeWindow: 86400000, // 24 hours
@@ -61,14 +68,12 @@ const config = {
     },
   },
   externalLinks: {
-    github: 'https://github.com/SemPlaatsman',
-    linkedin: 'https://www.linkedin.com/in/sem-plaatsman/',
+    github: 'https://github.com/AmberVenema98',
+    linkedin: 'https://www.linkedin.com/in/amber-venema-ba954b182/',
     get email() {
       return `mailto:${config.email.address}`;
     },
     location: 'https://maps.app.goo.gl/AEWwr2iiCeWyovD28',
-    npm: 'https://www.npmjs.com/~sempl',
-    stackOverflow: 'https://stackoverflow.com/users/18598382/sem',
   },
   ui: {
     theme: {

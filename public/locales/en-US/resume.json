@@ -8,8 +8,8 @@
     "title": "Education",
     "items": [
       {
-        "title": "Inholland University of Applied Sciences",
-        "period": "2021 — Present",
+        "title": "HVA Communication and Multimedia Design",
+        "period": "2022 - Present",
         "description": [
           "In year 2, I helped year 1 students with programming in C# (credit point).",
           "Successfully completed various multidisciplinary projects with a variety of technologies.",
@@ -17,11 +17,11 @@
         ]
       },
       {
-        "title": "OSG De Hogeberg (HAVO)",
-        "period": "2015 — 2021",
+        "title": "Media College Graphic Design",
+        "period": "2016 - 2020",
         "description": [
-          "Completed a year-long final research project on AI.",
-          "Became interested in programming during a Python project in the 4th year."
+          "Introducted to coding (HTML/CSS), webdesign, animations, wireframing and prototyping",
+          "Became more and more interessted in coding and webdesigning so i wanted to persue this interest."
         ]
       }
     ]
@@ -30,7 +30,7 @@
     "title": "Experience",
     "items": [
       {
-        "title": "S.P. Abonneeservice",
+        "title": "Tzorg",
         "period": "2024 — Present",
         "description": [
           "Developed an SSO system with performance, security, and unit testing.",
@@ -41,16 +41,38 @@
         "title": "S.P. Abonneeservice (Internship)",
         "period": "2023 — 2024",
         "description": [
-          "Developed a JWT-authenticated PWA for S.P.'s customers for statistical information.",
-          "Collaborated within a multidisciplinary context. Analyzed requirements and performed technical translations for non-technical stakeholders.",
-          "Gained experience with React, ASP.NET, JWT, TypeScript, SCSS, MySQL, and other technologies."
+          "Redesigned some forms for the clients on their website.",
+          "Presented these new designs and got feedback.",
+          "I worked with an online design envoirnment where i used Bootstrap to code the forms."
         ]
       },
       {
-        "title": "Zegel Retailing B.V.",
-        "period": "2019 — 2023",
+        "title": "Kennemerhart",
+        "period": "2021 - 2022",
         "description": [
           "All-round retail employee focusing on customer-oriented service and operational support."
+        ]
+      },
+      {
+        "title": "Vivazorggroep",
+        "period": "2016 - 2020",
+        "description": [
+          "All-round retail employee focusing on customer-oriented service and operational support."
+        ]
+      },
+      {
+        "title": "Pepperminds (Internship)",
+        "period": "2019",
+        "description": [
+          "All-round retail employee focusing on customer-oriented service and operational support."
+        ]
+      },
+      {
+        "title": "Ambasco (Internship)",
+        "period": "2018 - 2019",
+        "description": [
+          "Half year internship working with Wordpress and the extension Divi.",
+          "Redesigning and rebranding websites for their clients."
         ]
       }
     ]
